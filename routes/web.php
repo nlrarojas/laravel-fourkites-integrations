@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/send-notification', 'App\Http\Controllers\NotificationController@sendNotification');
+Route::get('/send-log', 'App\Http\Controllers\LogsController@sendLog')->middleware('App\Http\Middleware\LogMiddleware');

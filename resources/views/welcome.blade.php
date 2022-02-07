@@ -23,7 +23,13 @@
     <body>
         <div style="margin: 0 auto; width: 80%;">
             <div style="text-align: center; padding-top: 25%;">
-                <a href="/send-notification" type="button" style="padding: 10px 30px;">Test</a>
+                <a href="/send-notification" type="button" style="padding: 10px 30px;">Test Pager Duty</a>
+            </div>
+        </div>
+
+        <div style="margin: 0 auto; width: 80%;">
+            <div style="text-align: center; padding-top: 25%;">
+                <a href="/send-log" type="button" style="padding: 10px 30px;">Test LogEntries</a>
             </div>
         </div>
     </body>
